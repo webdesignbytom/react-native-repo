@@ -12,6 +12,7 @@ Information and quick start documentation for React Native projects.
 
 quick start
 `npx create-expo-app@latest -example with-router`
+- install test env for mobiles `npm install -g expo-cli`
 
 ## Set up new app
 Create app folder
@@ -20,9 +21,11 @@ Create files - _layout.js and index.js
 ## Dependencies
 `npm install expo-font axios react-native-dotenv`
 ## Commands
+- `npm start`
 - `npm run android`
 - `npm run ios` # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
 - `npm run web`
 
 
 ## Additional Programs
+- Phone test app - Expo Go
