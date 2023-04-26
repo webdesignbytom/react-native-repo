@@ -4,7 +4,7 @@ Information and quick start documentation for React Native projects.
 
 ## Table of contents
 
-- [react-native-repo](#react-native-repo)
+- [React Native Repo](#react-native-repo)
   - [Table of contents](#table-of-contents)
   - [Set up new app](#set-up-new-app)
   - [Dependencies](#dependencies)
@@ -52,7 +52,6 @@ Information and quick start documentation for React Native projects.
 - `npm run android`
 - `npm run ios` # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
 - `npm run web`
-- `expo --version` - print version
 
 ## Troubleshooting
 
