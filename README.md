@@ -4,7 +4,7 @@ Information and quick start documentation for React Native projects.
 
 ## Table of contents
 
-- [react-native-repo](#react-native-repo)
+- [React Native Repo](#react-native-repo)
   - [Table of contents](#table-of-contents)
   - [Set up new app](#set-up-new-app)
   - [Dependencies](#dependencies)
