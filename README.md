@@ -8,6 +8,8 @@ Information and quick start documentation for React Native projects.
   - [Table of contents](#table-of-contents)
   - [Set up new app](#set-up-new-app)
   - [Dependencies](#dependencies)
+    - [Set up](#set-up)
+    - [Other](#other)
   - [Expo Go](#expo-go)
   - [Commands](#commands)
   - [Troubleshooting](#troubleshooting)
@@ -22,16 +24,26 @@ Information and quick start documentation for React Native projects.
 
 ## Dependencies
 
-- `npm install expo-font axios react-native-dotenv`
+### Set up
+
 - install test env for mobiles `npm install -g expo-cli`
-- `npx expo install react-native@latest`
-- `expo init ./ --template blank [name] TravelApp`
+- `expo init ./ --template blank [name] XXXX` - same as npx create-expo-app
+
+### Other
+
+- Quick install `npm install expo-font axios react-native-dotenv`
+- Fonts `npm install expo-font`
+- Axios `npm install axios`
+- ENV `npm install react-native-dotenv`
+- Latest update `npx expo install react-native@latest`
+
 ## Expo Go
 
 - `npx create-expo-app name` Start new project
 - `cd name`
 - `npx expo install react-dom react-native-web @expo/webpack-config`
 - `npx expo start`
+- Tailwind `npm i nativewind` `
 
 ## Commands
 
@@ -40,6 +52,7 @@ Information and quick start documentation for React Native projects.
 - `npm run android`
 - `npm run ios` # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
 - `npm run web`
+- `expo --version` - print version
 
 ## Troubleshooting
 
