@@ -4,13 +4,14 @@ Information and quick start documentation for React Native projects.
 
 ## Table of contents
 
-- [React Native Repo](#react-native-repo)
+- [react-native-repo](#react-native-repo)
   - [Table of contents](#table-of-contents)
   - [Set up new app](#set-up-new-app)
   - [Dependencies](#dependencies)
+    - [Test2](#test2)
     - [Set up](#set-up)
     - [Other](#other)
-  - [Expo Go](#expo-go)
+  - [Expo Go (Mega)](#expo-go-mega)
   - [Commands](#commands)
   - [Troubleshooting](#troubleshooting)
   - [Additional Programs](#additional-programs)
@@ -23,6 +24,15 @@ Information and quick start documentation for React Native projects.
 - quick start `npx create-expo-app@latest -example with-router`
 
 ## Dependencies
+
+### Test2
+
+1. npx create-expo-app AwesomeProject
+2. cd .. code .
+3. npm start
+4. npx expo install react-native-web@~0.18.10 @expo/webpack-config@^18.0.1
+5. npm install @react-navigation/native @react-navigation/native-stack
+6. npx expo install react-native-screens react-native-safe-area-context
 
 ### Set up
 
@@ -37,13 +47,14 @@ Information and quick start documentation for React Native projects.
 - ENV `npm install react-native-dotenv`
 - Latest update `npx expo install react-native@latest`
 
-## Expo Go
+## Expo Go (Mega)
 
 - `npx create-expo-app name` Start new project
 - `cd name`
 - `npx expo install react-dom react-native-web @expo/webpack-config`
+- `code .`
 - `npx expo start`
-- Tailwind `npm i nativewind` `
+- See 'PreSet Project'
 
 ## Commands
 
