@@ -6,40 +6,13 @@ Information and quick start documentation for React Native projects.
 
 - [react-native-repo](#react-native-repo)
   - [Table of contents](#table-of-contents)
-  - [Set up new app](#set-up-new-app)
   - [Dependencies](#dependencies)
-    - [Test2](#test2)
-    - [Set up](#set-up)
-    - [Other](#other)
-  - [Expo Go (Mega)](#expo-go-mega)
+  - [Expo Go](#expo-go)
   - [Commands](#commands)
   - [Troubleshooting](#troubleshooting)
   - [Additional Programs](#additional-programs)
 
-## Set up new app
-
-1. Create app folder
-2. Create files - `_layout.js` and `index.js`
-
-- quick start `npx create-expo-app@latest -example with-router`
-
 ## Dependencies
-
-### Test2
-
-1. npx create-expo-app AwesomeProject
-2. cd .. code .
-3. npm start
-4. npx expo install react-native-web@~0.18.10 @expo/webpack-config@^18.0.1
-5. npm install @react-navigation/native @react-navigation/native-stack
-6. npx expo install react-native-screens react-native-safe-area-context
-
-### Set up
-
-- install test env for mobiles `npm install -g expo-cli`
-- `expo init ./ --template blank [name] XXXX` - same as npx create-expo-app
-
-### Other
 
 - Quick install `npm install expo-font axios react-native-dotenv`
 - Fonts `npm install expo-font`
@@ -47,7 +20,7 @@ Information and quick start documentation for React Native projects.
 - ENV `npm install react-native-dotenv`
 - Latest update `npx expo install react-native@latest`
 
-## Expo Go (Mega)
+## Expo Go
 
 - `npx create-expo-app name` Start new project
 - `cd name`
